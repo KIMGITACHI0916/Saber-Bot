@@ -1,5 +1,5 @@
 {
-      "name": "╚»𝗧-𝗚-𝗡«╝ Robot",
+      "name": "king",
       "description": "Telegram group management bot.",
       "logo": "https://telegra.ph/file/19798419a95cd778001c9.jpg",
       "keywords": [
@@ -7,7 +7,7 @@
          "anime",
          "group",
          "manager",
-         "TGN"
+         "King"
       ],   
    "repository": "https://github.com/Itsunknown-12/TGN-Robot.git",
    "addons": [
@@ -30,36 +30,36 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": "6967041161:AAGdOrxhOJuCecWzP_cA2hxXnYoL7d-hlak"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "24179799"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "e0449ebeed25c5f96293b6cbf94aae61"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": false,
-         "value": "sqldbtype://username:pw@hostname:port/db_name"
+         "value": "https://customer.elephantsql.com/instance"
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1669178360"
+         "value": "6427187467"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
          "required": true,
-         "value": ""
+         "value": "6967041161"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
-        "value": ""
+        "value": "7c10353e-746e-4621-ae90-9488e8c9b965"
       },
       "HEROKU_APP_NAME": {
         "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
@@ -67,17 +67,17 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Timesisnotwaiting"
+         "value": "king_bot_0916"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "GodfatherSupport"
+         "value": "kingsbotsupport"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": ""
+         "value": "https://customer.elephantsql.com/instance"
       },
       "IBM_WATSON_CRED_URL": {
          "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
@@ -100,12 +100,12 @@
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
          "required": true,
-         "value": "-xyz"
+         "value": "-MYCJZ83GDE4G9U3K"
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
-         "value": "-xyz"
+         "value": "-UCRHZCYN3MZA"
       },
       "API_OPENWEATHER": {
         "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
@@ -115,7 +115,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1669178360"
+         "value": ""
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -182,7 +182,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://t.me/GodfatherSupport"
+         "value": ""
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
