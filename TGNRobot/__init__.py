@@ -43,15 +43,15 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 ENV = bool(os.environ.get("ENV", False))
 
 if ENV:
-    TOKEN = os.environ.get("TOKEN", None)
+    TOKEN = os.environ.get("TOKEN", 6967041161:AAGdOrxhOJuCecWzP_cA2hxXnYoL7d-hlak)
 
     try:
-        OWNER_ID = int(os.environ.get("OWNER_ID", None))
+        OWNER_ID = int(os.environ.get("OWNER_ID", 6427187467))
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
     JOIN_LOGGER = os.environ.get("JOIN_LOGGER", None)
-    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", None)
+    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", king_bot_0916)
 
     try:
         DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "").split())
@@ -80,13 +80,13 @@ if ENV:
     URL = os.environ.get("URL", "")  # Does not contain token
     PORT = int(os.environ.get("PORT", 5000))
     CERT_PATH = os.environ.get("CERT_PATH")
-    API_ID = os.environ.get("API_ID", None)
-    API_HASH = os.environ.get("API_HASH", None)
-    BOT_ID = int(os.environ.get("BOT_ID", None))
+    API_ID = os.environ.get("API_ID", 24179799)
+    API_HASH = os.environ.get("API_HASH", e0449ebeed25c5f96293b6cbf94aae61)
+    BOT_ID = int(os.environ.get("BOT_ID", 6967041161))
     DB_URI = os.environ.get("DATABASE_URL")
-    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
+    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", https://customer.elephantsql.com/instance)
     DONATION_LINK = os.environ.get("DONATION_LINK")
-    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", 7c10353e-746e-4621-ae90-9488e8c9b965)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     OPENWEATHERMAP_ID = os.environ.get("OPENWEATHERMAP_ID", None)
@@ -99,12 +99,12 @@ if ENV:
     BAN_STICKER = os.environ.get("BAN_STICKER", "CAADAgADOwADPPEcAXkko5EB3YGYAg")
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
     CASH_API_KEY = os.environ.get("CASH_API_KEY", None)
-    TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
+    TIME_API_KEY = os.environ.get("TIME_API_KEY", UCRHZCYN3MZA)
     AI_API_KEY = os.environ.get("AI_API_KEY", None)
     WALL_API = os.environ.get("WALL_API", None)
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None)
     SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", None)
-    SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
+    SPAMWATCH_API = os.environ.get("SPAMWATCH_API", none)
 
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
 
